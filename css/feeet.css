@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+}
+footer{
+    border-top: 2px solid #b98331;
+    position: relative;
+    width: 100%;
+    background: rgb(211, 211, 211);
+    min-height: 400px;
+}
+.sicon{
+    margin-top: 55px;
+    width: 5%;
+    height: 250px;
+    float: left;
+}
+.sicon ul{
+    list-style: none;
+}
+.sicon ul li{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.sicon ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+}
+.sicon ul li a i
+{
+    transition: 0.3s;
+}
+.sicon ul li a i:hover{
+    transform: translateX(6px);
+    transition: 0.3s;
+    color: #b98331;
+}
+.weblogo{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 55px;
+}
+.weblogo img{
+    width: 400px;
+    height: 160px;
+}
+.category{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 55px;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 800;
+    
+}
+.text{
+    width: 200px;
+    height: 180px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.text ul{
+    list-style: none;
+}
+.text ul li{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+.text ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.text ul li a:hover{
+    color: #b98331;
+}
+.about{
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin-top: 55px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.part1{
+    width: 250px;
+    height: 290px;
+    float: left;
+}
+.karachi{
+    height:145px;
+    width: 250px;
+    
+}
+.lahore{
+    height:145px;
+    width: 250px;
+    
+
+}
+.part2{
+    width: 250px;
+    height: 290px;
+    float: left;
+
+}
+.multan{
+    height:145px;
+    width: 250px;
+    
+}
+.islamabad{
+    height:145px;
+    width: 250px;
+    
+}
+.quaid{
+    margin-right: 180px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.fasil{
+    margin-right: 190px;
+    width: 85px;
+    height: 75px;
+}
+.masjid{
+    margin-right: 165px;
+    width: 70px;
+    height: 60px;
+    margin-top: 10px;
+
+}
+.minar{
+    margin-right: 190px;
+    width: 80px;
+    height: 70px;
+}
+.ktext{
+    width: 140px;
+    height: 20px;
+    margin-left: 65px;
+    margin-top: -35px;
+    font-size: 15px;
+    text-align: center;
+}
+.ltext{
+    width: 140px;
+    height: 20px;
+    margin-left: 65px;
+    margin-top: -35px;
+    font-size: 15px;
+    text-align: center;
+
+
+}
+.ftext{
+    width: 170px;
+    height: 20px;
+    margin-left: 80px;
+    margin-top: -46px;
+    font-size: 15px;
+    text-align: center;
+
+
+}
+.mtext{
+    width: 140px;
+    height: 20px;
+    margin-left: 85px;
+    margin-top: -35px;
+    font-size: 15px;
+    text-align: center;
+
+
+}
+.us {
+    list-style: none;
+}
+.us li{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+}

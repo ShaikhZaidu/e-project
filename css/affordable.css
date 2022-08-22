@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    max-width: 1440px;
+    margin: auto;
+    height: 200vh;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(146, 146, 146);
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b98331;
+    transition: 3s;
+  }
+  
+  /* top - header */
+  
+  .top-header {
+    width: 100%;
+    height: 30px;
+    background-color: #b98331;
+  }
+  .top-header .left {
+    width: 33.33%;
+    height: inherit;
+    float: left;
+  }
+  .left ul {
+    list-style: none;
+  }
+  .left ul li a {
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+  }
+  .left ul li a :hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .top-header .center {
+    width: 33.33%;
+    height: inherit;
+    float: left;
+  }
+  .center ul {
+    list-style: none;
+    text-align: center;
+  }
+  .center ul li a {
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+  }
+  .top-header .right {
+    width: 33.33%;
+    height: inherit;
+    float: left;
+  }
+  .right ul {
+    list-style: none;
+  }
+  .right ul li {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+  }
+  .right ul li a {
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+  }
+  .right ul li a i:hover {
+    transform: scale(1.2);
+    transition: 0.1s;
+  }
+  .top-header .content {
+    width: 90%;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  
+  /* navigation bar*/
+  
+  header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .lgimg {
+    width: 250px;
+    height: 100px;
+    padding-top: 2px;
+  }
+  header nav {
+    float: right;
+  }
+  header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 100;
+  }
+  header nav ul li {
+    list-style: none;
+    position: relative;
+    margin-top: 30px;
+  }
+  header nav ul li.sub-menu:before {
+    content: "\f0d7";
+    position: absolute;
+    line-height: 50px;
+    font-family: fontAwesome;
+    color: rgb(105, 105, 105);
+    right: 5px;
+  }
+  header nav ul li.active.sub-menu:before {
+    content: "\f0d8";
+  }
+  header nav ul li ul {
+    position: absolute;
+    left: 0;
+    display: none;
+  }
+  header nav ul li.active ul {
+    display: block;
+  }
+  header nav ul li ul li {
+    display: block;
+    width: 200px;
+  }
+  header nav ul li a {
+    display: block;
+    height: 25px;
+    line-height: 30px;
+    padding: 10px 20px;
+    color: rgb(79, 79, 79);
+    text-decoration: none;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+  }
+  header nav ul li a:hover {
+    background-color: #b98331;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    transition: 0.7s;
+  }
+  .menu-toggle {
+    color: rgb(105, 105, 105);
+    float: right;
+    line-height: 110px;
+    cursor: pointer;
+    display: none;
+    font-size: 20px;
+  }
+  .gotopbtn {
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    right: 50px;
+    position: fixed;
+    text-decoration: none;
+    text-align: center;
+    line-height: 20px;
+    font-size: 35px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: 0.3s;
+  }
+  .gotopbtn:hover {
+    color: #696969;
+    background-color: #b98331;
+    border: 2px solid #b98331;
+    transition: 0.3s;
+  }
+  .asi1 {
+    background-color: #fff;
+    width: 100%;
+    height: 10vh;
+  }
+  .footer {
+    padding-top: 30px;
+    height: 350px;
+    width: 100%;
+    background-color: #404040;
+    color: white;
+    left: 0;
+    bottom: 0;
+  }
+  .footl {
+    height: inherit;
+    width: 35%;
+    float: left;
+  }
+  .footr {
+    height: inherit;
+    width: 65%;
+    float: left;
+  }
+  .footl img {
+    height: 125px;
+    width: 300px;
+    margin-left: 60px;
+    margin-top: 60px;
+    text-align: center;
+  }
+  .footl_icon {
+    width: 50%;
+    height: fit-content;
+    margin-left: 95px;
+    text-align: center;
+  }
+  .footl i {
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+  }
+  .footl i:hover {
+    color: #ca9443;
+  }
+  .link1 {
+    height: inherit;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+  }
+  .link2 {
+    height: inherit;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+  }
+  .cont {
+    height: inherit;
+    width: 33.33%;
+    float: left;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .link1_title {
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .link2_title {
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .cont_title {
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .link1_info {
+    padding-top: 25px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .link1_info div {
+    border-bottom: 1px solid white;
+    width: 60%;
+    padding: 5px;
+    margin-left: 45px;
+  }
+  .link1_info div:hover {
+    color: #ca9443;
+  }
+  .link2_info {
+    padding-top: 25px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .link2_info div {
+    border-bottom: 1px solid white;
+    width: 60%;
+    padding: 5px;
+    margin-left: 45px;
+  }
+  .link2_info div:hover {
+    color: #ca9443;
+  }
+  .cont_info {
+    padding-top: 30px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .footerbottom {
+    width: 100%;
+    height: 50px;
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 35px;
+    background-color: rgb(22, 22, 22);
+    border-top: 1px solid white;
+  }
+  /* media query for nav bar */
+
+@media (max-width: 838px) {
+  header {
+    padding: 0 20px;
+  }
+  .menu-toggle {
+    display: block;
+    color: #b98331;
+  }
+  header nav {
+    position: absolute;
+    width: 50%;
+    height: calc(100vh - 50px);
+    top: 90px;
+    right: -100%;
+    transition: 0.5s;
+    z-index: 100;
+  }
+  header nav.active {
+    right: 0;
+  }
+  header nav ul {
+    display: block;
+    text-align: center;
+  }
+  header nav ul li a {
+    border-bottom: 2px solid gray;
+  }
+  header nav ul li.active ul {
+    position: relative;
+  }
+  header nav ul li ul li {
+    width: 100%;
+  }
+  .top-header {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  header nav ul li {
+    margin-top: 15px;
+  }
+}
